@@ -39,7 +39,7 @@ ALERT_THRESHOLD = 75
 
 # Which academic terms to pull from the feed. Add "Fall 2026" etc. if you
 # also want to see off-cycle/co-op postings.
-TERMS = ["Summer 2027"]
+TERMS = ["Summer 2027", "Spring 2027", "Winter 2026"]
 
 
 # --------------------------------------------------------------------------

@@ -46,7 +46,8 @@ def main():
     seen = load_seen()
 
     all_listings = fetch_all_listings()
-    relevant = filter_relevant(all_listings, terms=profile_module.TERMS)
+    relevant = filter_relevant(all_listings, terms=profile_module.TERMS, categories=("Software", "AI/ML/Data", "Software Engineering",
+                    "Data Science, AI & Machine Learning"),)
     new_listings = [item for item in relevant if item["id"] not in seen]
 
     print(
